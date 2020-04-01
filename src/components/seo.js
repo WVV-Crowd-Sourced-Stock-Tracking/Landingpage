@@ -53,11 +53,11 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:url`,
-          content: `https://whatsleft-landingpage.netlify.com`,
+          content: `https://whatsleft.store`,
         },
         {
           property: "og:image",
-          content: 'https://whatsleft-landingpage.netlify.comimages/logo.png',
+          content: 'https://whatsleft.store/images/logo.png',
         },
         {
           name: `twitter:card`,
@@ -77,7 +77,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: "keywords",
-          content: "Budget Planner, Budget, Plan, Understand, Verstehen, Ausgaben, expenses, add, project, app, iOS 13, apple, new, best. mobil, finanzes, finances",
+          content: "",
           lang: "en"
         }
       ].concat(meta)}
